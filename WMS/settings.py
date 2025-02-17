@@ -159,12 +159,6 @@ FILE_UPLOAD_MAX_MEMORY_SIZE = 5242880
 
 AUTH_USER_MODEL = "core.CustomUser"
 
-# Cloudinary configuration
-cloudinary.config(
-    cloud_name = "your_cloud_name",
-    api_key = "your_api_key",
-    api_secret = "your_api_secret"
-)
 
 # Media files configuration
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
